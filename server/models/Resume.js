@@ -19,5 +19,5 @@ const resumeSchema = new mongoose.Schema({
 
 // Create a model using the schema
 const Resume = mongoose.model('Resume', resumeSchema);
-
+console.log("hello")
 module.exports = Resume;
